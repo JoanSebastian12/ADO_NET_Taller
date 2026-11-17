@@ -1,0 +1,30 @@
+﻿========================================================
+  TALLER ADO.NET CON SQLite - Registro de videojuegos
+========================================================
+
+[1] CONEXION abierta -> videojuegos.db
+    Estado: Open | Versi├│n del servidor: 3.53.3
+
+[2] COMANDO DDL ejecutado: CREATE TABLE IF NOT EXISTS Videojuegos
+    Columnas: Id, Nombre, Genero, Anio | resultado: 0
+
+[3] COMANDO DML con PARAMETERS: INSERT de 4 registros
+    + Hollow Knight    (Metroidvania, 2017) -> 1 fila afectada
+    + Celeste          (Plataformas, 2018) -> 1 fila afectada
+    + Hades            (Roguelike, 2020) -> 1 fila afectada
+    + Stardew Valley   (Simulacion, 2016) -> 1 fila afectada
+
+[4] DATAREADER: consulta de todos los registros
+    ID  NOMBRE            GENERO         ANIO
+    --  ------            ------         ----
+    4   Stardew Valley    Simulacion     2016
+    1   Hollow Knight     Metroidvania   2017
+    2   Celeste           Plataformas    2018
+    3   Hades             Roguelike      2020
+    Total leido: 4 registro(s)
+
+[5] DATAREADER + PARAMETER: juegos del genero 'Plataformas'
+    - Celeste (2018)
+
+[6] Conexion cerrada automaticamente por 'using'.
+Fin de la demostracion.
