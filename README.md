@@ -31,7 +31,7 @@ Un **registro de videojuegos**: tabla `Videojuegos` con las columnas
 
 ```bash
 # 1. Clonar el repositorio
-git clone <URL_DE_TU_REPOSITORIO.git>
+git clone https://github.com/JoanSebastian12/ADO_NET_Taller.git
 cd ADO_NET_Taller
 
 # 2. Restaurar dependencias y ejecutar
